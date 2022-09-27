@@ -1,0 +1,117 @@
+@font-face {
+    font-family: zkklt;
+    src: url(font/zkklt.ttl);
+    }
+div.container_nav {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #336699;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+nav a {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    z-index: 10;
+}
+
+nav a:nth-child(1) {
+    width: 100px;
+    /*img*/
+}
+
+nav a:nth-child(2) {
+    width: 110px;
+    /*主页*/
+}
+
+nav a:nth-child(3) {
+    width: 100px;
+    /*关于我们*/
+}
+
+nav a:nth-child(4) {
+    width: 100px;
+    /*博客*/
+}
+
+nav a:nth-child(5) {
+    width: 100px;
+    /*趣问*/
+}
+
+nav a:nth-child(6) {
+    width: 120px;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    background-color: coral;
+    z-index: 9;
+    border-radius: 8px;
+
+}
+
+.start-home,
+nav a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0px;
+}
+
+.start-about,
+nav a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+}
+
+.start-blog,
+nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+}
+
+.start-news,
+nav a:nth-child(4):hover~.animation {
+    width: 100px;
+    left: 310px;
+}
+
+.start-talking,
+nav a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 400px;
+}
+
+.top_background {
+    height: 1080px;
+}
+.top_title{
+    text-align: center;
+    font-family: zkklt;
+}
+.top_title_name{
+    color: black;
+}
+.top_title_name_en{
+    color:black;
+}

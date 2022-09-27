@@ -1,0 +1,13 @@
+<div class="top_background">
+    <section class="hero bg-img" style="background-image: url(img/hero/hero_1.png);">
+        <div class="container hero__container container-full-height" style="height: 456px;">
+          <div class="hero__outer">
+            <div class="hero__inner text-center">
+              <h1 class="hero__title hero__title--lg">秋风云</h1>
+              <p class="hero__subtitle hero--boxed hero--center">我们将以最便宜的价格提供最优惠的服务 一切以客户体验为中心</p>
+              <a href="#" class="btn btn--lg btn--transparent"><span>开始了解我们</span></a>
+            </div>            
+          </div>          
+        </div>        
+      </section>
+</div>
